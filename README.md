@@ -1,4 +1,14 @@
 # PowerEdge-shutup
+<details>
+<summary>
+<b>[ Changelog ] </b>
+</summary>
+<p>
+
+- 2023 XX XX | >Since last year my R720's motherboard has been dying. Not sure if I'll get around to do finish the full 2.0 rework of this script since I won't really use it, but who knows, could gamble of me getting incredibly bored at some point.
+- 2022 07 11 | >minor update: Swapping CPU IDs fixing single CPU detection failure.
+- 2022 05 13 | >minor update: Adding custom failsafe value. Work In Progress branch for upcoming R5. 
+- 2022 03 04 | >R4 patch1 : Adding new CPU Data source option, minor log corrections.
 - 2022 03 03 | >R4 Deltacheck CPU mode, DeltaA/E with Ambient check, failsafes, infinite CPU count.
 - 2022 02 27 | >minor update: adding IPMI-fail fail-safe.
 - 2022 02 27 | >R3 Auto CPUn/Ambient mode switching, logging, auto hexadecimal conversion, and more.
@@ -6,7 +16,9 @@
 - 2021 11 10 | >/!\ r2f : fixing a small, but quite critical fluke.
 - 2021 08 19 | >R2 update: now takes in account intake and exhaust temperatures!
 - 2021 04-08 | > various shit edits
-- 2021 04 14 | >R1 initial dump & comments
+- 2021 04 14 | >R1 initial dump from my running environment & comments
+</p>
+</details>
 
 ## Requirements
 - iDrac Entreprise (afaik it won't work with express)
